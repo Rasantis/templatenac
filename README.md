@@ -39,6 +39,8 @@ Para rodar o projeto , instale a bibiblioteca dashboards no node red e a bibliot
 * Para ajudar na formatação
 
 
+**Link do vídeo no youtube:    https://youtu.be/H-cWkc-SPF0 **
+
 
 ### Referências 
 
