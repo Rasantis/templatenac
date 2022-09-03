@@ -4,15 +4,24 @@ Esse é um guia simples, o grupo pode e deve modificar o template conforme neces
 
 # Nome do projeto
 
-**nome dos alunos:** 
+**nome dos alunos: Rafael Vinícius rm86981 e João Pedro Otoni** 
 
-**Turma:**
+**Turma 2TDSG:**
 
-**Ano:**
+**Ano: 2022**
 
 ## Objetivo / descrição do Projeto
 
-Explique de forma clara qual o objeto deste projeto, para que serve e comente as principais tecnologias utilizadas. 
+Sobre o projeto:
+Conectamos um sensor de umidade ao arduíno e mostramos a informação da umidade do local em tempo real em dashboards dentro da ferramenta node red e através da biblioteca arduino json. Liberamos a informação obtida do sensor de umidade , em tempo real usando o protocolo MQTT , então qualquer pessoa de qualquer parte do mundo , pode fazer a "consulta/requisição" desses dados em tempo real, ent nesse caso o protocolo mqtt está servindo até como uma API.
+
+Usando a tag button da biblioteca dashboards atrelamos ela a um servo motor , onde ela gira 180 graus , basta clicar no botão no node red que ela gira.
+
+Conectamos o arduíno a um sistema de RfID , onde ao usuário encostar seu cartão/ tag rfid , é disparado uma mensagem no telegram informando que alguém entrou usando a tag rfid.
+
+O bot foi conectado no telegram através da ferramenta do botfather (nativa do telegram).
+
+Para rodar o projeto , instale a bibiblioteca dashboards no node red e a biblioteca telegram-bot, para rodar apenas na porta serial do arduíno baixa a lib arduino json.h , spi.h , mfrc522.h
 
 ## Diagrama do projeto
 
@@ -23,30 +32,12 @@ Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do ci
 
 ## Como usar 
 
-Explique como rodar o seu projeto. Quais programas instalar, como configurar... 
+
+Para rodar o projeto , instale a bibiblioteca dashboards no node red e a biblioteca telegram-bot, para rodar apenas na porta serial do arduíno baixa a lib arduino json.h , spi.h , mfrc522.h
 
 * Pode ser utilizado marcadores
 * Para ajudar na formatação
 
-Ou qualquer outra tabulação:
-
-- [x] Youtube
-- [ ] Facebook 
-- [x] Instagram
-
-Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
-
-    cd /home/iot
-    git clone https://github.com/arnaldojr/templatenac
-    cd templatenac
-    ls
-
-
-## Link de vídeo demonstração
-
-Adicione o link para assistir ao vídeo do projeto funcionando.
-
-[Link para o video youtube](https://www.youtube.com/watch?v=xva71wynxS0)
 
 
 ### Referências 
