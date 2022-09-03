@@ -37,6 +37,7 @@ Para rodar o projeto , instale a bibiblioteca dashboards no node red e a bibliot
 * Pode ser utilizado marcadores
 * Para ajudar na formatação
 
+*No vídeo abaixo está conectado com um servo motor e com o telegram , porém ao enviar o arquivo json (node-red), ele corrompeu por isso não subi o com o servo motor. 
 
 **Link do vídeo no youtube:    https://youtu.be/H-cWkc-SPF0 **
 
