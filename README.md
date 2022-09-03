@@ -27,7 +27,7 @@ Para rodar o projeto , instale a bibiblioteca dashboards no node red e a bibliot
 
 Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
 
-<img src="/imagem.jpg" width="550">
+<img src="/MicrosoftTeams-image (31).png" width="550">
 
 
 ## Como usar 
