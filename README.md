@@ -15,7 +15,6 @@ Esse é um guia simples, o grupo pode e deve modificar o template conforme neces
 Sobre o projeto:
 Conectamos um sensor de umidade ao arduíno e mostramos a informação da umidade do local em tempo real em dashboards dentro da ferramenta node red e através da biblioteca arduino json. Liberamos a informação obtida do sensor de umidade , em tempo real usando o protocolo MQTT , então qualquer pessoa de qualquer parte do mundo , pode fazer a "consulta/requisição" desses dados em tempo real, ent nesse caso o protocolo mqtt está servindo até como uma API.
 
-Usando a tag button da biblioteca dashboards atrelamos ela a um servo motor , onde ela gira 180 graus , basta clicar no botão no node red que ela gira.
 
 Conectamos o arduíno a um sistema de RfID , onde ao usuário encostar seu cartão/ tag rfid , é disparado uma mensagem no telegram informando que alguém entrou usando a tag rfid.
 
